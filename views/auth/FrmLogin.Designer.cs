@@ -29,17 +29,21 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.BPJS_CONS_ID_VCLAIM = new System.Windows.Forms.TextBox();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.BPJS_USER_KEY_VCLAIM = new System.Windows.Forms.TextBox();
+            this.BPJS_SECRET_KEY_VCLAIM = new System.Windows.Forms.TextBox();
+            this.BPJS_CONS_ID_ANTROL = new System.Windows.Forms.TextBox();
+            this.BPJS_USER_KEY_ANTROL = new System.Windows.Forms.TextBox();
+            this.BPJS_SECRET_KEY_ANTROL = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // textBox1
+            // BPJS_CONS_ID_VCLAIM
             // 
-            this.textBox1.Location = new System.Drawing.Point(153, 52);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(286, 22);
-            this.textBox1.TabIndex = 0;
+            this.BPJS_CONS_ID_VCLAIM.Location = new System.Drawing.Point(153, 100);
+            this.BPJS_CONS_ID_VCLAIM.Name = "BPJS_CONS_ID_VCLAIM";
+            this.BPJS_CONS_ID_VCLAIM.Size = new System.Drawing.Size(286, 22);
+            this.BPJS_CONS_ID_VCLAIM.TabIndex = 0;
             // 
             // contextMenuStrip1
             // 
@@ -47,20 +51,52 @@
             this.contextMenuStrip1.Name = "contextMenuStrip1";
             this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
             // 
-            // textBox2
+            // BPJS_USER_KEY_VCLAIM
             // 
-            this.textBox2.Location = new System.Drawing.Point(153, 99);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(286, 22);
-            this.textBox2.TabIndex = 2;
+            this.BPJS_USER_KEY_VCLAIM.Location = new System.Drawing.Point(153, 139);
+            this.BPJS_USER_KEY_VCLAIM.Name = "BPJS_USER_KEY_VCLAIM";
+            this.BPJS_USER_KEY_VCLAIM.Size = new System.Drawing.Size(286, 22);
+            this.BPJS_USER_KEY_VCLAIM.TabIndex = 2;
+            // 
+            // BPJS_SECRET_KEY_VCLAIM
+            // 
+            this.BPJS_SECRET_KEY_VCLAIM.Location = new System.Drawing.Point(153, 183);
+            this.BPJS_SECRET_KEY_VCLAIM.Name = "BPJS_SECRET_KEY_VCLAIM";
+            this.BPJS_SECRET_KEY_VCLAIM.Size = new System.Drawing.Size(286, 22);
+            this.BPJS_SECRET_KEY_VCLAIM.TabIndex = 3;
+            // 
+            // BPJS_CONS_ID_ANTROL
+            // 
+            this.BPJS_CONS_ID_ANTROL.Location = new System.Drawing.Point(153, 247);
+            this.BPJS_CONS_ID_ANTROL.Name = "BPJS_CONS_ID_ANTROL";
+            this.BPJS_CONS_ID_ANTROL.Size = new System.Drawing.Size(286, 22);
+            this.BPJS_CONS_ID_ANTROL.TabIndex = 4;
+            // 
+            // BPJS_USER_KEY_ANTROL
+            // 
+            this.BPJS_USER_KEY_ANTROL.Location = new System.Drawing.Point(153, 306);
+            this.BPJS_USER_KEY_ANTROL.Name = "BPJS_USER_KEY_ANTROL";
+            this.BPJS_USER_KEY_ANTROL.Size = new System.Drawing.Size(286, 22);
+            this.BPJS_USER_KEY_ANTROL.TabIndex = 5;
+            // 
+            // BPJS_SECRET_KEY_ANTROL
+            // 
+            this.BPJS_SECRET_KEY_ANTROL.Location = new System.Drawing.Point(153, 374);
+            this.BPJS_SECRET_KEY_ANTROL.Name = "BPJS_SECRET_KEY_ANTROL";
+            this.BPJS_SECRET_KEY_ANTROL.Size = new System.Drawing.Size(286, 22);
+            this.BPJS_SECRET_KEY_ANTROL.TabIndex = 6;
             // 
             // FrmLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.ClientSize = new System.Drawing.Size(800, 483);
+            this.Controls.Add(this.BPJS_SECRET_KEY_ANTROL);
+            this.Controls.Add(this.BPJS_USER_KEY_ANTROL);
+            this.Controls.Add(this.BPJS_CONS_ID_ANTROL);
+            this.Controls.Add(this.BPJS_SECRET_KEY_VCLAIM);
+            this.Controls.Add(this.BPJS_USER_KEY_VCLAIM);
+            this.Controls.Add(this.BPJS_CONS_ID_VCLAIM);
             this.Name = "FrmLogin";
             this.Text = "BPJS Client - Login";
             this.ResumeLayout(false);
@@ -70,8 +106,12 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox BPJS_CONS_ID_VCLAIM;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox BPJS_USER_KEY_VCLAIM;
+        private System.Windows.Forms.TextBox BPJS_SECRET_KEY_VCLAIM;
+        private System.Windows.Forms.TextBox BPJS_CONS_ID_ANTROL;
+        private System.Windows.Forms.TextBox BPJS_USER_KEY_ANTROL;
+        private System.Windows.Forms.TextBox BPJS_SECRET_KEY_ANTROL;
     }
 }
